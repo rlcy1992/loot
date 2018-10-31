@@ -32,7 +32,7 @@
 #include <spdlog/sinks/basic_file_sink.h>
 
 #include "gui/helpers.h"
-#include "gui/state/game_detection_error.h"
+#include "gui/state/game/game_detection_error.h"
 #include "gui/state/logging.h"
 #include "gui/state/loot_paths.h"
 #include "gui/version.h"
