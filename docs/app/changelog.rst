@@ -12,22 +12,22 @@ Fixed
 
 - Out-of-bounds memory read that caused corruption in LOOT's ``settings.toml``
   when LOOT is closed after having been unable to find any installed games.
-- Passing an invalid ``--game`` value as a parameter to ``LOOT.exe`` now causes
-  an error to be displayed.
 
 Added
 -----
 
-- Add an ``--auto-sort`` parameter parameter that can be passed to ``LOOT.exe``
-  with ``--game``, and which will cause LOOT to automatically sort the game's
-  load order and apply the sorted load order, then quit. If an error is
-  encountered at any point, auto-sort is cancelled.
-- Czech translation by ThePotatoChronicler.
-- Documentation section that describes the sorting algorithm.
+- An ``--auto-sort`` parameter that can be passed to ``LOOT.exe`` with
+  ``--game``, and which will cause LOOT to automatically sort the game's load
+  order and apply the sorted load order, then quit. If an error is encountered
+  at any point, auto-sort is cancelled.
+- A Czech translation by ThePotatoChronicler.
+- A documentation section that describes the sorting algorithm.
 
 Changed
 -------
 
+- Passing an invalid ``--game`` value as a parameter to ``LOOT.exe`` now causes
+  an error to be displayed.
 - The Groups Editor now uses a left-to-right layout when displaying the groups
   graph, which is clearer and more consistent than the previous layout.
 - Updated GUI dependencies.
